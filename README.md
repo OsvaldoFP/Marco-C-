@@ -1,9 +1,10 @@
-# Marco-C-
+# Marco C++
 Este código en C++ solicita al usuario el tamaño, grosor y carácter para un marco, y luego imprime el marco con esas características.
-#include<iostream>
-using namespace std;
-void marco(int nume, char mar);
-int main(){
+
+	#include<iostream>
+	using namespace std;
+	void marco(int nume, char mar);
+	int main(){
 	
 	int num=0,num1=0,i=0;
 	char mar=' ';
@@ -37,13 +38,13 @@ int main(){
 		
 	
 	return 0;
-}
+	}
 
-void marco(int num, char mar)
-{
+	void marco(int num, char mar)
+	{
 	for(int i=0;i<num;i++){
 		cout<<mar;
 	}
 	cout<<endl;
 	return;
-}
+	}
